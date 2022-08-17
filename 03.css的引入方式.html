@@ -1,0 +1,45 @@
+<!--
+ * @Author: Ping@163.com zeng_fuping@163.com
+ * @Date: 2022-07-24 09:33:11
+ * @LastEditors: Ping@163.com zeng_fuping@163.com
+ * @LastEditTime: 2022-07-24 09:46:41
+ * @FilePath: \Day03\03.css的引入方式.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+        }
+    </style>
+    <link rel="stylesheet" href="./mycss.css">
+</head>
+
+<body>
+    <!-- 使用css的3种方式 -->
+    <!-- 1.内嵌式 书写位置：内嵌在当前这个页面当做中      使用频率 平常练习-->
+    <!-- 2.行内式 书写位置： 当前这一个标签身上       使用频率 测试 js  -->
+    <!-- 3.外链式 书写位置： 另外一个创建一个css文件    使用频率  工作当中-->
+    <!-- 注意： 行内的优先级高一些 -->
+    <!-- -->
+
+    <div>div</div>
+    <div>div</div>
+    <div>div</div>
+    <p style="width:100px ; height: 100px;background-color: aqua; color: blue;"></p>
+
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+</body>
+
+</html>

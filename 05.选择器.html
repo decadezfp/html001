@@ -1,0 +1,77 @@
+<!--
+ * @Author: Ping@163.com zeng_fuping@163.com
+ * @Date: 2022-07-24 10:13:20
+ * @LastEditors: Ping@163.com zeng_fuping@163.com
+ * @LastEditTime: 2022-07-24 10:48:55
+ * @FilePath: \Day03\05.选择器.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            background-color: aqua;
+        }
+
+        span {
+            background-color: black;
+        }
+
+        div {
+            background-color: chocolate;
+
+        }
+
+        /* 类选择器的书写方式 */
+        .man {
+            background-color: blue;
+        }
+
+        .y {
+            background-color: yellowgreen;
+        }
+
+        #two {
+            background-color: pink;
+        }
+
+        * {
+            background-color: darkgreen;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 选择器的作用： 就是为了在所有元素，找到你需要的元素， 并且上颜色（css) -->
+    <!-- 1.标签选择器：按照标签的类型来获取  缺点：不能精确匹配，是获取范围的-->
+    <!-- 2.类选择器：按照标签来获取 class='man' .man 可以精确匹配 -->
+    <!-- 3.id 选择器： 按照标记来获取 id ='avc  #avc id有唯一-->
+    <!-- 4.通配符选择器：页面当中，所有的元素都具备的属性 -->
+
+
+    <div>div</div>
+    <div>div</div>
+    <div>div</div>
+    <p>p</p>
+    <p>p</p>
+    <p class="y">p</p>
+    <span class="man">span</span>
+    <span>span</span>
+    <span>span</span>
+    <ul>
+        <li>123</li>
+        <li id="two">123</li>
+        <li>123</li>
+    </ul>
+    <strong>ddddddddddddddddddddddddddddddddddddddd</strong>
+    <em>eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeem</em>
+</body>
+
+</html>

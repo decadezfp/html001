@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 20px;
+            /* 1.px 固定像素单位，固定值，不灵活 */
+            /* 2.em跟随字体大小进行变化 */
+            /* text-indent：30px*/
+            text-indent: 2em;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        div{
+            /* text-decoration: line-through; 删除线 */
+            /* text-decoration: underline; 上划线*/
+            /* text-decoration: overline; 上划线*/
+            /* text-decoration: none; 去掉a标签下划线*/
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+    文本样式
+    1.首行缩进
+    2.对齐方式
+    3.修饰： text-decoration
+    因为标签当中存在del,ins之类的语义标签，所以更加推荐使用标签
+    a链接标签自带下划线，一般强调下划线 text-decoation :none;
+ -->
+
+
+    <p> 因为标签当中存在del,ins之类的语义标签，所以更加推荐使用标签
+        a链接标签自带下划线，一般强调下划线 text-decoation :none;</p>
+    <p> 因为标签当中存在del,ins之类的语义标签，所以更加推荐使用标签
+        a链接标签自带下划线，一般强调下划线 text-decoation :none;</p>
+    <p> 因为标签当中存在del,ins之类的语义标签，所以更加推荐使用标签
+        a链接标签自带下划线，一般强调下划线 text-decoation :none;</p>
+
+    <del>删除线</del>
+    <ins>下划线</ins>
+    <div>
+
+    </div>
+    <a href="#">百度</a>
+</body>
+
+</html>
